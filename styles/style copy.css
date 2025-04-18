@@ -1,0 +1,26 @@
+.center-text {
+    text-align: center;
+}
+body {
+    background-image: url("../Images/TheBoat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed; /* Makes the background scroll with the page */
+    animation: scrollBackground 20s ease-in-out infinite; /* Smooth transition with ease-in-out */
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position: center top;
+    }
+    50% {
+        background-position: center bottom;
+    }
+    100% {
+        background-position: center top;
+    }
+}
+
+
+

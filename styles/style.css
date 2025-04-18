@@ -1,0 +1,92 @@
+.center-text {
+    text-align: center;
+}
+body {
+    background-image: url("../Images/TheBoat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    line-height: 150px; /* Centers text vertically */
+    background-attachment: fixed; /* Makes the background static while scrolling */
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+    font-size: 110%; 
+    margin-right: 10px; 
+    margin-bottom: -4px; 
+    display: inline-block;
+    margin-left: 3%;
+}
+
+
+hr {
+    border: none;
+  height: 1px;  
+  color: #c0f5f8; 
+  background-color: #6b6b6b; 
+}
+
+.box {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 2px solid #6b6b6b;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-align: 600px;
+}
+
+h2 {
+    margin: 10px 0; /* Reduce top and bottom margin */
+    line-height: 2; /* Adjust line spacing for better readability */
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-evenly; /* Evenly distribute space between boxes */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Add consistent spacing between boxes */
+    margin: 40px auto; /* Center the section with more margin */
+    padding: 20px;
+}
+
+.content-box {
+    width: 22%; /* Adjust width for better alignment */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for the box */
+    border: 2px solid #6b6b6b; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 15px; /* Padding inside the box */
+}
+
+.content-image {
+    width: 100%; /* Adjust to fit the container */
+    max-width: 190px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+    margin-bottom: -50px; /* Space below the image */
+    
+}
+
+.content-box:last-child .content-image {
+    max-width: 170px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: -50px;
+    
+}
+
+p {
+    margin-top: -20px;
+    line-height: 2;
+
+}
+
+h3 {
+    margin: -9px;
+}
